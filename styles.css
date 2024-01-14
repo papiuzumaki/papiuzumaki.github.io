@@ -1,0 +1,230 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../images/background.jpeg);
+    color: black;
+
+}
+h1{
+    color: black;
+}
+
+
+
+header {
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    border: solid black;
+
+}
+
+nav ul {
+    text-decoration: solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: grey;
+    border-radius: 30px;
+}
+
+section {
+    padding: 40px;
+}
+
+#portfolio .project {
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    margin-top: 2px;
+}
+#intro{
+    max-width: 45%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: dashed black;
+}
+.etudiants{
+    color: black;
+    font-weight: bold;
+}
+.image1{
+    width: 500px;
+    border-radius: 30px;
+    margin-right: 220px;
+    margin-left: 25px;
+
+}
+.image2{
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+}
+.project{
+    display: inline-flex;
+    
+}
+.bloc3{
+    margin-left: 200px;
+}
+.image3{
+    border-radius: 30px;
+    width: 500px;
+    height: 350px;
+
+}
+
+.tp1{
+padding-left: 200px;
+font-weight: bolder;
+font-size: 22px;
+}
+.tp2{
+    padding-left: 200px;
+    font-weight: bolder;
+    font-size: 22px;    
+}
+.tp3{
+    padding-left: 200px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.portfolio{
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    background-color: white;    
+    border-radius: 50px;
+    height: 50px;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.competences{
+    text-align: center;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    background-color: white;    
+    border-radius: 50px;
+    height: 50px;
+    
+}
+
+.dp1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.dpp1{
+    max-width: 350px;
+    margin-left: 80px;
+    font-size: 22px;
+}
+.dp2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 100px;
+    font-size: 25px;  
+}
+.dpp2{
+    max-width: 350px;
+    margin-left: 80px;
+    font-size: 22px;
+}
+.dp3{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+    padding-left: 120px;
+    font-size: 25px;
+}
+.dpp3{
+    max-width: 350px;
+    margin-left: 110px;
+    font-size: 22px;
+    
+}
+#skills{
+    max-width: 45%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: dashed black;
+}
+#contact{
+    max-width: 45%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+    border: dashed black;
+    margin-top: 100px; 
+}
+.message{
+    width: 40px;
+    padding-top: 40px;
+    height: 40px;
+}
+.mail{
+    width: 40px;
+    padding-top: 40px;
+    height: 40px;
+}
+.icone{
+    width: 90px;
+    height: 80px;
+    padding-top: 70px;
+    margin-bottom: 0px;
+}
+.photoshop{
+    width: 70px;
+    padding-left: 200px;
+}
+.logocisco{
+    width: 70px;
+    padding-left: 200px;
+}

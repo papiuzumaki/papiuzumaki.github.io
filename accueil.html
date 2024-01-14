@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Pape Oumar / Ass Malick</h1>
+        <p class="etudiants">Etudiants</p>
+        
+    </header>
+
+    
+
+    <section id="intro">
+        <h2>Bienvenue sur mon portfolio !</h2>
+        <p>Étudiant motivé entamant ma première année, je suis Pape Oumar Ndiaye, explorant avec passion les domaines fascinants de l'informatique. Bien que dans mes débuts, j'ai déjà commencé à cultiver mon intérêt pour le developpement WEb. Mon portfolio offre un aperçu de mes premières réalisations et de ma curiosité croissante. Bienvenue à la découverte de mon parcours académique naissant!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="portfolio">PORTFOLIO</h2>
+       
+        <div class="project">
+           <div class="bloc1">
+                <p class="tp1">PROJET 1</p>
+                <img class="image1" src="images/Aqua fraiche.jpg" alt="Projet 1">
+                <p class="dp1">Description du projet 1</p><br>
+                <img class="photoshop" src="images/Adobe Photoshop Icon Logo Template Download on Pngtree.jpeg" alt="">
+                <p class="dpp1">Ceci est un projet que nous avons pu réaliser à partir de photoshop. 3 images nous ont été donnée et l'objectif étais d'arriver à ce résultat ci dessus</p>
+            </div>
+            <div class="bloc2">
+                <p class="tp2">PROJET 2</p> 
+                <img class="image2" src="images/Final.png" alt="Projet 2">
+                <p class="dp2">Description du projet 2.</p><br>
+                <img class="photoshop" src="images/Adobe Photoshop Icon Logo Template Download on Pngtree.jpeg" alt="">
+                <p class="dpp2">On a pu réaliser ce projet sur Photoshop   ou 6 différentes images nous ont été donner et à partir de notre inspiration on a pu aboutir é ce fin.</p>
+            </div>
+            <div class="bloc3">
+                <p class="tp3">PROJET 3</p>
+                <img class="image3" src="images/packet tracer.jpeg" alt="Projet 3">
+                <p class="dp3">Description du projet 3</p><br>
+                <img class="logocisco" src="images/cisco.png" alt="">
+                <p class="dpp3">Ceci est un travail ou on a pu configurer un reseau via Cisco Packet Tracer</p>
+           </div>
+        </div>
+        
+    </section>
+
+    <section id="skills">
+        <h2 class="competences">MES COMPETENCES</h2>
+
+            <p>
+                Je suis une personne qui est très versatile sur certain domaine touchant l'informatique et la       programmation. Parmis ces Compétences je peux citer :
+            </p>
+            <ul>
+                <li>
+                     Je suis doué à rapidement comprendre comment effectuer une consigne qui m'a été donné en suivant les méthodes recommandé pour l'accomplir.                   
+                </li>
+                <li>
+                    Je retient correctement les informations qui me sont donné
+                </li>
+                <li>
+                    Je suis une personne qui sait prendre en compte le genre de problèmes dans lequel je suis confronté, que se soit relation, technique, apport d'informations.
+                </li>
+                <li>
+                    Je suis excellent à pour trouver une alternative et des compromis pour une bonne cohésion au sein de groupe de travail et faire office de médiateur afin de faciliter la communication .
+                </li>
+            </ul>
+
+        
+        
+    </section>
+
+    <section id="contact">
+        <h2 clas>CONTACT</h2>
+        <p>Utilise le formulaire ci-dessous pour nous contacter :</p>
+        <form action="traitement_formulaire.php" method="post">
+            <label for="nom">Prénom & Nom <img class="icone" src="images/Avatar.jpeg" alt="avatar"> :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email <img class="mail" src="images/mail2.jpeg" alt=""> :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message  <img class="message" src="images/Email.jpeg" alt="logo mail"> :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <br>
+    <br> 
+    <br>
+    <br>
+<footer>
+    <p>PORTFOLIO PON&ASS</p>
+</footer>
+
+</body>
+</html>
